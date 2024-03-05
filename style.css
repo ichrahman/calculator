@@ -9,3 +9,49 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    width: 280px;
+    height: 410px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.display{
+    height: 90px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.clear_delete{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear_delete button{
+    width: 110px;
+    padding: 10px;
+}
+
+.buttons{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.buttons button{
+    width: 60px;
+    height: 50px;
+}
