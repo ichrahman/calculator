@@ -19,18 +19,25 @@ body {
 
 .calculator{
     width: 280px;
-    height: 410px;
+    height: 380px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 80px;
 }
 
 .display{
-    height: 90px;
+    height: 50px;
     border: 1px solid #ccc;
     margin: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
+
 
 .clear_delete{
     margin: 10px;
